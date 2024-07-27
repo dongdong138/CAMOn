@@ -1,0 +1,39 @@
+﻿@page
+@model ExternalLoginModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h1>@ViewData["Title"]</h1>
+<h2 id="external-login-title">Associate your @Model.ProviderDisplayName account.</h2>
+<hr />
+
+<p id="external-login-description" class="text-info">
+    You've successfully authenticated with <strong>@Model.ProviderDisplayName</strong>.
+    Please click the Register button to finish
+    logging in.
+</p>
+<div style="margin: 15% 0;">
+    <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-md-7">
+                <form asp-page-handler="Confirmation" asp-route-returnUrl="@Model.ReturnUrl" method="post" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger text-color-change-red"></div>
+
+                    <div class="input-group mb-3 d-flex">
+                        Email: @Model.Input.Email <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope"></i></span>
+                        <input asp-for="Input.Email" type="text" class="form-control form-control-lg" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1" hidden readonly />
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-dark btn-lg flex-end rounded-2 ms-2">Register</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

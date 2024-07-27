@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WorkSpace\\yolov10\\CAMOn\\CamOn-FE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{468CF018-BC75-42F0-BAA9-5EE7BCF954E7}|CamOn-FE\\CamOn-FE.csproj|d:\\workspace\\yolov10\\camon\\camon-fe\\camon-fe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{468CF018-BC75-42F0-BAA9-5EE7BCF954E7}|CamOn-FE\\CamOn-FE.csproj|solutionrelative:camon-fe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WorkSpace\\yolov10\\CAMOn\\CamOn-FE\\CamOn-FE\\appsettings.json",
+              "RelativeDocumentMoniker": "CamOn-FE\\appsettings.json",
+              "ToolTip": "D:\\WorkSpace\\yolov10\\CAMOn\\CamOn-FE\\CamOn-FE\\appsettings.json",
+              "RelativeToolTip": "CamOn-FE\\appsettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-27T15:38:41.357Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
